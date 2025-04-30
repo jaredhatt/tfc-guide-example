@@ -9,6 +9,9 @@ variable "region" {
 variable "test" {
   default = "test"
 }
+variable "test2" {
+  default = "test"
+}
 
 variable "instance_type" {
   description = "Type of EC2 instance to provision"
