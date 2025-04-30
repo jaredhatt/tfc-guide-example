@@ -7,7 +7,7 @@ variable "region" {
 }
 
 variable "test" {
-  default "test"
+  default = "test"
 }
 
 variable "instance_type" {
